@@ -8,7 +8,7 @@ Shift Baru : E<br>
 ![alt text](https://github.com/fatur251003/LabMobile8_Fatur-Sakti-Arrafi_Shift-E/blob/main/images/Screenshot%202024-10-31%20094625.png)
 ![alt text](https://github.com/fatur251003/LabMobile8_Fatur-Sakti-Arrafi_Shift-E/blob/main/images/Screenshot%202024-10-31%20094618.png)
 
-berikut adalah cara kerja login pada halaman tersebut:
+Berikut adalah cara kerja login pada halaman tersebut:
 
 1. Tampilan Header: 
    Halaman login dimulai dengan `<ion-header>` yang menampilkan toolbar dan judul halaman "Login". Ini diatur menggunakan elemen `<ion-toolbar>` dan `<ion-title>`. 
@@ -34,5 +34,3 @@ berikut adalah cara kerja login pada halaman tersebut:
 6. Fungsi Login:
    - Fungsi `login()` yang ditetapkan dalam atribut `(click)="login()"` diharapkan ada di file TypeScript yang terhubung dengan HTML ini. Fungsi ini akan mengambil nilai `username` dan `password` dari input yang telah diikat menggunakan `[(ngModel)]`, dan kemudian memproses data untuk melakukan autentikasi.
    - Biasanya, fungsi `login()` ini akan memvalidasi input, memverifikasi kredensial pengguna dengan backend server atau layanan autentikasi, dan kemudian mengarahkan pengguna ke halaman berikutnya jika login berhasil atau menampilkan pesan error jika gagal.
-
-Demikian alur kerja dari halaman login di file ini, di mana fungsi utama dari HTML ini adalah menampilkan form login, menerima input, dan mengirimkan data tersebut ke fungsi `login()` untuk autentikasi lebih lanjut【4†source】.
